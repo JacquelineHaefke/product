@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: microservice-product jacquelinehaefke
+  main:
+    banner-mode: "off"
+  datasource:
+    url: jdbc:h2:mem:productdb;
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jackson:
+    date-format: "yyyy-MM-dd HH:mm:ss"
+
